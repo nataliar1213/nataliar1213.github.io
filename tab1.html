@@ -33,6 +33,10 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 	<style>
+		#mainimg {
+			float: right;
+			margin: 0 0 10px 10px;
+		}
 	</style>
 </head>
 
@@ -78,13 +82,14 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
 					<!--My image, rounded corners-->
-                	<img src="img/header.jpg" class="img-thumbnail" width="304" height="236"> 
                     <h2 class="section-heading">Learning about me!!</h2>
                     <hr class="light">
-                    <p class="text-faded">
-                    	I am currently a high school senior learning about computer science. 
-                    </p>
-				
+					<p style="margin: 0;padding: 0;">
+						<img id="mainimg" src="img/me.jpg" class="img-thumbnail" width="350" height="250"> 
+						<p class="text-faded">
+							I am currently a high school senior learning about computer science. 
+						</p>
+					</p>
 					
                 </div>
             </div>
@@ -111,7 +116,7 @@
 								</div>
 								
 								<div class="col-lg-4 col-sm-6">
-									<a href="#" class="portfolio-box">
+									<a href="#" class="portfolio-box" data-toggle="modal" data-target="#myModal2">
 										<img src="img/portfolio/2.jpg" class="img-responsive" alt="">
 										<div class="portfolio-box-caption">
 											<div class="portfolio-box-caption-content">
@@ -126,7 +131,7 @@
 									</a>
 								</div>
 								<div class="col-lg-4 col-sm-6">
-									<a href="#" class="portfolio-box">
+									<a href="#" class="portfolio-box" data-toggle="modal" data-target="#myModal3">
 										<img src="img/portfolio/3.jpg" class="img-responsive" alt="">
 										<div class="portfolio-box-caption">
 											<div class="portfolio-box-caption-content">
@@ -141,7 +146,7 @@
 									</a>
 								</div>
 								<div class="col-lg-4 col-sm-6">
-									<a href="#" class="portfolio-box">
+									<a href="#" class="portfolio-box" data-toggle="modal" data-target="#myModal4">
 										<img src="img/portfolio/4.jpg" class="img-responsive" alt="">
 										<div class="portfolio-box-caption">
 											<div class="portfolio-box-caption-content">
@@ -156,7 +161,7 @@
 									</a>
 								</div>
 								<div class="col-lg-4 col-sm-6">
-									<a href="#" class="portfolio-box">
+									<a href="#" class="portfolio-box" data-toggle="modal" data-target="#myModal5">
 										<img src="img/portfolio/5.jpg" class="img-responsive" alt="">
 										<div class="portfolio-box-caption">
 											<div class="portfolio-box-caption-content">
@@ -171,7 +176,7 @@
 									</a>
 								</div>
 								<div class="col-lg-4 col-sm-6">
-									<a href="#" class="portfolio-box">
+									<a href="#" class="portfolio-box" data-toggle="modal" data-target="#myModal6">
 										<img src="img/portfolio/6.jpg" class="img-responsive" alt="">
 										<div class="portfolio-box-caption">
 											<div class="portfolio-box-caption-content">
@@ -187,20 +192,112 @@
 								</div>
 							</div>
 						</div>
+						
+						
 						<!-- Modal -->
 							<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 							  <div class="modal-dialog" role="document">
 							    <div class="modal-content">
 							      <div class="modal-header">
 							        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-							        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+							        <h4 class="modal-title" id="myModalLabel">Skills</h4>
 							      </div>
 							      <div class="modal-body">
-							        ...
+										- Communications and Public Speaking.
 							      </div>
 							      <div class="modal-footer">
 							        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-							        <button type="button" class="btn btn-primary">Save changes</button>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+							
+							<!-- Modal #2-->
+							<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+							  <div class="modal-dialog" role="document">
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							        <h4 class="modal-title" id="myModalLabel">Awards/ Achivements </h4>
+							      </div>
+							      <div class="modal-body">
+										-
+							      </div>
+							      <div class="modal-footer">
+							        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+							
+							<!-- Modal #3-->
+							<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+							  <div class="modal-dialog" role="document">
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							        <h4 class="modal-title" id="myModalLabel">Awards/ Achivements </h4>
+							      </div>
+							      <div class="modal-body">
+										-
+							      </div>
+							      <div class="modal-footer">
+							        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+							
+							
+							<!-- Modal #4-->
+							<div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+							  <div class="modal-dialog" role="document">
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							        <h4 class="modal-title" id="myModalLabel">Awards/ Achivements </h4>
+							      </div>
+							      <div class="modal-body">
+										-
+							      </div>
+							      <div class="modal-footer">
+							        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+							
+							<!-- Modal #5-->
+							<div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+							  <div class="modal-dialog" role="document">
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							        <h4 class="modal-title" id="myModalLabel">Awards/ Achivements </h4>
+							      </div>
+							      <div class="modal-body">
+										-
+							      </div>
+							      <div class="modal-footer">
+							        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+							
+							<!-- Modal #6-->
+							<div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+							  <div class="modal-dialog" role="document">
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							        <h4 class="modal-title" id="myModalLabel">Awards/ Achivements </h4>
+							      </div>
+							      <div class="modal-body">
+										-
+							      </div>
+							      <div class="modal-footer">
+							        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 							      </div>
 							    </div>
 							  </div>
